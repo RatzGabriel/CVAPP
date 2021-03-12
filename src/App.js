@@ -41,7 +41,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container-cv">
       <div className="container-All-Forms">
         <FormElementsGeneral onGeneralSubmit={onGeneralSubmit} />
         <FormElementsEducation onEducationSubmit={onEducationSubmit} />
@@ -49,6 +49,7 @@ const App = () => {
       </div>
 
       <Display personalArray={personalArray} />
+      <h1>Education:</h1>
       {educationArray.map((item) => {
         return (
           <DisplayEducation
@@ -57,7 +58,7 @@ const App = () => {
           />
         );
       })}
-
+      <h1>Practical:</h1>
       {practicalArray.map((item) => {
         return (
           <DisplayPractical
