@@ -14,7 +14,6 @@ const FormElementsGeneral = ({ onGeneralSubmit }) => {
   const [toggleClass, setToggleClass] = useState("");
 
   const toggle = (e) => {
-    console.log("test");
     if (toggleClass === "") {
       setToggleClass("active");
     } else {
@@ -45,7 +44,7 @@ const FormElementsGeneral = ({ onGeneralSubmit }) => {
         <div onClick={() => toggle()}>
           <h1>
             Personal Information
-            <i>⇓</i>
+            <i> &dArr;</i>
           </h1>
         </div>
 

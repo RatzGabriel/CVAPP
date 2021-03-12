@@ -5,7 +5,7 @@
   align-items: center;
   background-color: rgb(141, 137, 131);
   padding: 2em;
-  min-width: 100%;
+  min-width: 70%;
   text-align: center;
 }
 
@@ -43,6 +43,7 @@
 .container-cv {
   background-color: rgb(104, 145, 187);
   padding: 3em;
+  width: 70%;
 }
 
 .desc {
@@ -63,4 +64,8 @@ button {
 .btn-remove {
   background-color: #a31b1b;
   width: 300px;
+}
+
+i {
+  font-style: normal;
 }
